@@ -6,6 +6,7 @@ defmodule Rocketpay.User do
   alias Rocketpay.Account
 
   @primary_key {:id, :binary_id, autogenerate: true}
+
   @required_params [:name, :age, :email, :password, :nickname]
 
   schema "users" do

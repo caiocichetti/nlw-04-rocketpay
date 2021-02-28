@@ -12,10 +12,6 @@ defmodule Rocketpay.Users.Create do
       preload_data(repo, user)
     end)
     |> run_transaction()
-
-    # params
-    # |> User.changeset()
-    # |> Repo.insert()
   end
 
   defp insert_account(repo, user) do
@@ -26,6 +22,7 @@ defmodule Rocketpay.Users.Create do
 
   defp account_changeset(user_id) do
     params = %{user_id: user_id, balance: "0.00"}
+
     Account.changeset(params)
   end
 
