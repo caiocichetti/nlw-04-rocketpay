@@ -49,6 +49,6 @@ Pronto para colocar em produção? Dá uma olhada nos [guias de deploy](https://
 
 ## 📄 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/caiocichetti/nlw-04-rocketpay/LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/caiocichetti/nlw-04-rocketpay/blob/main/LICENSE.md) para mais detalhes.
 
 ---
