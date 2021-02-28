@@ -11,7 +11,7 @@ defmodule RocketpayWeb.UsersView do
       }) do
     %{
       message: "User created",
-      user_data: %{
+      user: %{
         id: id,
         name: name,
         nickname: nickname,
